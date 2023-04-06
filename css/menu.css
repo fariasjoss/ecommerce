@@ -1,0 +1,97 @@
+
+.inicio{
+    margin-top: 1rem;
+    box-sizing: border-box;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.logo{
+    width: 27%;
+    height: 31px
+}
+.login{
+    width: 38%;
+    height: 34px;
+    border-color: #2A7AE4;
+    color:  #2A7AE4;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buscador{
+    display: none;
+}
+.lupa{
+    border: none;
+    height: 33px;
+    background-color:white;
+}
+
+@media screen and (min-width:699px){
+    .inicio{
+        justify-content:none;
+    }
+    .login{
+        order: 3;
+        width: 27%;
+        height: 35px;
+    }
+    .buscar{
+        width:50%;
+    }
+    .buscador{
+        display:inline-block;
+        border: none;
+        background-color: #F5F5F5;;
+        width: 74%;
+        height: 36px;
+        padding-left: 1rem;
+        border-radius: 20px;
+    }
+    .buscador:focus{
+        outline: none;
+    }
+    .logo{
+        width: 15%;
+        height: 33px
+    }
+    .lupa{
+        border: none;
+        height: 37px;
+        background-color:#F5F5F5;;
+        margin-left: -43px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .inicio{
+        margin-top: 1.6rem;
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+    .logo{
+        width: 12%;
+        height: 35px
+    }
+    .buscador{
+        width: 65%;
+        height: 34px;
+        padding-left: 1rem;
+        border-radius: 20px;
+        margin-left: -2.7rem;
+    }
+    .login{
+        order: 3;
+        width: 20%;
+        height: 35px;
+    }
+}
+
+.blue{
+    text-decoration: none;
+}

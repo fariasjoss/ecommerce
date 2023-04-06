@@ -1,0 +1,152 @@
+.starwars{
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: #E5E5E5;
+}
+
+.titulosw{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titlesw{
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #464646;
+    line-height: 26px;
+}
+.vertodo{
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4;
+    font-weight: 700;
+    text-decoration: none;
+}
+.pc, .pc1{
+    display:none;
+}
+
+.arrow{
+    margin-left:0.2rem;
+}
+.linesw{
+    margin-top: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxsw{
+    box-sizing: border-box;
+    display: flex;
+    gap: 3px;
+    width: 48%;
+    margin-bottom: 1rem;
+}
+
+.imgsw{
+    padding-right: 10px;
+    width:141px;
+    height: 152px;
+}
+.textosw{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #464646;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+}
+.preciosw{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #464646;
+    padding-bottom: 0.2rem;
+}
+.verproducto{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+@media screen and (min-width:699px){
+    .boxsw{
+        width: 23%;
+    } 
+    .titulosw{
+        margin-top: 1rem;
+    }
+    .arrow{
+        margin-left:0.4rem;
+    }
+    .pc,.pc1{
+        display:none;
+    }
+    .imgsw{
+        padding-right: 10px;
+        width:147px;
+        height: 152px;
+    }
+    
+}
+@media screen and (min-width:1000px){
+    .starwars{
+        padding-top: 1.5rem;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        background: #E5E5E5;
+    }
+    
+    .pc{
+        box-sizing: border-box;
+        display: flex;
+        gap: 3px;
+        width: 5%;
+        margin-bottom: 1rem;
+        justify-content: space-between;
+        padding-right: 1rem;
+           
+    }
+    .pc1{
+        box-sizing: border-box;
+        display: flex;
+        gap: 3px;
+        width: 5%;
+        margin-bottom: 1rem;
+        justify-content: space-between;
+        padding-right: 8.8rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+    .boxsw{
+        box-sizing: border-box;
+        display: flex;
+        gap: 3px;
+        width: 5%;
+        margin-bottom: 1rem;
+        justify-content: space-between;
+    }
+    .imgsw{
+        padding-right: 9px;
+        width:134px;
+        height: 138px;
+    }
+    
+}
+@media screen and (min-width:1136px){
+    .imgsw{
+        padding-right: 16px;
+        width:139px;
+        height: 142px;
+    } 
+}

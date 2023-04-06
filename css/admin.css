@@ -1,0 +1,227 @@
+.login{
+    margin-left: 5%;
+}
+
+.sesion{
+    background: #E5E5E5;
+}
+.inicio1{
+    margin-bottom: 0.6rem;
+}
+.divs{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 1.5rem;
+}
+.titulos{
+    padding-top: 2rem;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 1rem;
+}
+.correos{
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 7px;
+    width: 89%;
+    height: 6vh;
+    padding-left: 0.7rem;
+    padding-top: 0.2rem;
+}
+.correos:focus{
+    outline: none;
+}
+.claves{
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 7px;
+    width: 88%;
+    height: 10vh;
+    padding-left: 0.7rem;
+    padding-top: 0.2rem;
+}
+.claves:focus{
+    outline: none;
+}
+::placeholder{
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+}
+.formcontato__textarea::placeholder{
+    padding-top: 0.05rem;
+    padding-left: 0.3rem;
+}
+.entrars{
+    margin-bottom: 3rem;
+    width: 91.5%;
+    height: 6vh;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:700px){
+    .inicio1{
+        justify-content: left;
+    }
+    .buscar1{
+        margin-left: 1.5rem;
+    }
+    .claves{
+        width: 96%;
+        height: 12vh;
+    }
+    .correos{
+        width: 96%;
+        height: 8vh; 
+    }
+    .titulos{
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
+    .entrars{
+        margin-bottom: 3rem;
+        width: 96.6%;
+        height: 8vh;
+    }
+}
+@media screen and (min-width:1000px){
+    .logo{
+        width: 153px;
+        height: 41px;  
+    }
+    .buscar1{
+        margin-left: 4.5rem;
+    }
+    .claves{
+        width: 52%;
+        height: 10vh;
+    }
+    .correos{
+        width: 52%;
+        height: 6vh; 
+    }
+    .entrars{
+        margin-bottom: 3rem;
+        width: 53%;
+        height: 6vh;
+    }
+    .divs{
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    .titulos{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 1rem;
+        padding-right: 26%;
+        padding-top: 2rem;
+    }
+    .login{
+        margin-left: 7%;
+    }
+    
+}
+@media screen and (min-width:1210px){
+    .titulos{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 1rem;
+        padding-right: 31%;
+    }
+    .login{
+        margin-left: 12%;
+    }
+}
+
+
+.input-div {
+    width: 86%;
+    height: 181px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    background-color: white;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .file {
+    padding-top: 1rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .file::-webkit-file-upload-button{
+    width:31%;
+    height:24%;
+  }
+  
+  output {
+    margin-top: 3.6rem;
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  output .image {
+    height: 123px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  output .image img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  output .image span {
+    position: absolute;
+    top: -4px;
+    right: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+  }
+  
+  output .image span:hover {
+    opacity: 0.8;
+  }
+  
+  output .span--hidden {
+    visibility: hidden;
+  }
+
+  @media screen and (min-width:700px){
+    .input-div{
+    width: 94.3%;
+    }
+  }
+
+  @media screen and (min-width:1000px){
+    .input-div{
+    width: 51%;
+    }
+  }
+
+  

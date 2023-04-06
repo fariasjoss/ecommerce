@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/starwars.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/admin.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ecommerce</title>
+</head>
+<body class="body">
+    <main>
+    <section class="menu">
+        <div class="inicio inicio1">
+            <img src="Logo.png" alt="logo" class="logo" onclick="location.href='index.html'">
+            <button  class="login">Administrador</button>
+            <form action="" class="buscar buscar1">
+                <input type="text" class="buscador" placeholder="Que deseas buscar?">
+                <button class="lupa"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </section>
+    <section class="sesion">
+        <h2 class="titulos divs">Agregar nuevo producto</h2>
+        <div class="divs">
+            <div class="input-div divs aux">
+            <input type="file" class="correos file" placeholder="Escriba url de la imagen">
+            <output></output>
+            </div>
+            <input type="text" class="correos url" placeholder="URL de la imagen">
+            <input type="text" class="correos nombrep" placeholder="Nombre del producto en mayusculas">
+            <input type="text" class="correos categoriap" placeholder="Categoria del producto">
+            <input type="number" class="correos preciop" placeholder="Precio del producto">
+            <input type="text" class="claves descripcionp" placeholder="Descripción del producto ID">
+            <button type="submit" class="botonb entrars">Agregar producto</button>
+        </div>
+    </section>
+    <section class="contacto">
+        <div class="bloquec">
+            <img src="Logo.png" alt="logo" class="logo logoc">
+            <div class="auxilio">
+            <h4 class="textoc">Quienes somos</h4>
+            <h4 class="textoc">Política de privacidad</h4>
+            <h4 class="textoc">Programa de fidelidad</h4>
+            <h4 class="textoc">Nuestras tiendas</h4>
+            <h4 class="textoc">Quiero ser franquiciado</h4>
+            <h4 class="textoc">Anuncie aquí</h4>
+            </div>
+        </div>
+            <form class="formcontato__form" name="form">
+                <h4 class="hablec">Hable con nosotros</h4>
+                <label class="jose" for="hey">Nombre</label>
+                <input class="formcontato__input" type="text" name="nombre"  id="hey" maxlength="40" title="Este campo no puede estar vacío y tiene un máximo 40 caracteres" data-tipo = "nombre">
+                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Escribe tu mensaje" maxlength="120" title="Este campo no puede estar vacío y tiene un máximo 120 caracteres" data-tipo = "mensaje"></textarea>
+                <h2 class = "luz"></h2>
+                <button type="submit" class="formcontato__botao botonb" >Enviar mensaje</button>
+            </form>
+        
+    </section>
+           
+            <section class="footer">
+                <div class="footer__rodape">
+                    <p>Desarrollado por Jose Farias</p>
+                    <p>2023</p>
+                </div>
+            </section> 
+        
+     <!-- Script del documento JavaScript -->
+    </main>
+    <script src="valid.js"></script>
+    <script type="module" src="/controllers/admincrear.js"></script>
+    <script type="module" src="controllers/buscador.js"></script>
+    <script src="https://unpkg.com/sweetalert2@7.8.2/dist/sweetalert2.all.js"></script>
+   
+    </body>
+    </html>

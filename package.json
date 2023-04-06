@@ -1,0 +1,12 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "Jose",
+  "license": "ISC"
+}

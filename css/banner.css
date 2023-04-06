@@ -1,0 +1,113 @@
+.divbanner{
+    box-sizing: border-box;
+    background-image: url(../banner-image.png);
+    background-size: 400px 210px;
+    background-repeat: no-repeat;
+    height:208px;
+    color:white;
+    background-position: center;
+}
+
+.infob{
+    padding-left: 1.5rem;
+    padding-top: 90px;
+}
+
+.titulob{
+    color:white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.promob{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 0.5rem;
+}
+.botonb{
+    border: none;
+    background-color: #2A7AE4;
+    color:white;
+    width: 38%;
+    height: 34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (min-width:400px){
+    .divbanner{
+        box-sizing: border-box;
+        background-image: url(../banner-image.png);
+        background-size: 700px 240px;
+        background-repeat: no-repeat;
+        height:240px;
+        color:white;
+        background-position: center;
+    } 
+    .infob{
+        padding-left: 2.5rem;
+        padding-top: 127px;
+    } 
+}
+
+
+@media screen and (min-width:699px){
+    .divbanner{
+        background-size: 820px 340px;
+        background-repeat: no-repeat;
+        height:340px;
+        color:white;
+        background-position: center;
+    }
+
+    .infob{
+        padding-top: 140px;
+    }
+    .titulob{
+        font-size: 52px;
+        line-height: 61px;
+    }
+    .promob{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .botonb{
+        border: none;
+        background-color: #2A7AE4;
+        color:white;
+        width: 19%;
+        height: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0.6rem;
+    }
+    
+}
+@media screen and (min-width:1000px){
+    .divbanner{
+        background-size: 1350px 360px;
+        background-repeat: no-repeat;
+        height:360px;
+        color:white;
+        background-position: center;
+    }  
+    .infob{
+        padding-left: 3.5rem;
+        padding-top: 167px;
+
+    }
+    .botonb{
+        width: 15%;
+        height: 38px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0.6rem;
+    }
+    
+}
+@media screen and (min-width:1349px){
+    .divbanner{
+        background-size: 1500px 370px;
+        background-repeat: no-repeat;
+        height:370px;
+        color:white;
+        background-position: center;
+    }  
+}

@@ -1,0 +1,110 @@
+.productos{
+    padding-left: 7.5%;
+}
+.boxsw{
+    width: 49%;
+    margin-right: 3px;
+}
+.linesw{
+    justify-content: left;
+}
+.titulosw{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.titlesw{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.1rem;
+}
+.agregar{
+    margin-bottom: 0.3rem;
+    width: 40%;
+    height: 38px;
+}
+.delete{
+    padding-left: 0.77rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    width: 43%;
+    height: 37%;
+}
+.idno{
+    padding-top: 0.01rem;
+}
+@media screen and (min-width:450px){
+    .productos{
+        padding-left: 7.7%;
+    }
+    .boxsw{
+        width: 47%;
+        margin-right: 10px;
+    } 
+}
+@media screen and (min-width:660px){
+    .productos{
+        padding-left: 6%;
+    }
+    .boxsw{
+        width: 23%;
+        margin-right: 2%;
+    } 
+    .titulosw{
+        flex-direction: row;
+        justify-content: space-between;   
+    }
+    .agregar{
+        margin-bottom: 0.7rem;
+        width: 30%;
+        height: 37px;
+        margin-right: 1.3rem;
+    }
+}
+
+@media screen and (min-width:940px){
+    .productos{
+        padding-left: 8%;
+    }
+    .boxsw{
+        width: 6%;
+        margin-right: 14%;
+        padding-bottom: 1rem;
+    } 
+    .agregar{
+        margin-bottom: 0.7rem;
+        width: 24%;
+        height: 39px;
+        margin-right: 2.4rem;
+    }
+}
+@media screen and (min-width:1110px){
+    .agregar{
+        margin-bottom: 0.7rem;
+        width: 22%;
+        height: 41px;
+        margin-right: 3.6rem;
+    }
+    .boxsw{
+        width: 7%;
+        margin-right: 9%;
+    } 
+}
+@media screen and (min-width:1250px){
+    .agregar{
+        margin-bottom: 0.7rem;
+        width: 22%;
+        height: 41px;
+        margin-right: 2.4rem;
+    }
+    .boxsw{
+        width: 7%;
+        margin-right: 7%;
+    } 
+}
+
